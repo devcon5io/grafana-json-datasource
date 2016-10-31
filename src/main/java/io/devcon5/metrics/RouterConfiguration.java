@@ -1,4 +1,4 @@
-package io.devcon5;
+package io.devcon5.metrics;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;

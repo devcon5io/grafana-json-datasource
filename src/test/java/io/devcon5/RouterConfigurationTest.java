@@ -2,6 +2,7 @@ package io.devcon5;
 
 import static org.junit.Assert.assertNotNull;
 
+import io.devcon5.metrics.RouterConfiguration;
 import io.vertx.core.Vertx;
 import io.vertx.ext.web.Route;
 import io.vertx.ext.web.Router;

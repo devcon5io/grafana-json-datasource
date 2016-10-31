@@ -16,7 +16,7 @@
 
     <properties>
         <vertx.version>3.3.3</vertx.version>
-        <restx.version>1.0</restx.version>
+        <restx.version>1.1-SNAPSHOT</restx.version>
     </properties>
 
     <dependencies>
@@ -29,6 +29,11 @@
             <groupId>io.vertx</groupId>
             <artifactId>vertx-mongo-client</artifactId>
             <version>${vertx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.0.4</version>
         </dependency>
         <!-- Test -->
         <dependency>

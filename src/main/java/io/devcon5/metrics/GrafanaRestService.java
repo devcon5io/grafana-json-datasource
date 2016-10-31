@@ -1,4 +1,4 @@
-package io.devcon5;
+package io.devcon5.metrics;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -21,7 +21,7 @@ public class Configuration {
     public void init(){
 
         if(!args.isUnsatisfied()){
-            this.commandLine = CLI.create("default").parse(args.get().getArgs());
+            this.commandLine = CLI.create("default").parse(args.get().asList());
         }
     }
 

@@ -8,7 +8,7 @@ import io.vertx.core.Vertx;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
 import org.jboss.resteasy.plugins.server.vertx.VertxResteasyDeployment;
-import rest.x.RestxHandler;
+import rest.x.resteasy.RestxHandler;
 
 public class RouterConfiguration {
 
